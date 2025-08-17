@@ -1,6 +1,5 @@
     body {
-
-    background-color: #fffffff6;
+      background-color: #fffffff6;
       font-family: Arial, sans-serif;
     }
     .btn-type {
@@ -76,8 +75,7 @@
       border-color: transparent transparent transparent white;
     }
 
-    .property-card img 
-    {
+    .property-card img {
       border-radius: 20px;
       object-fit: cover;
       height: 250px;
@@ -112,5 +110,6 @@
     .footer {
     font-size: 22rem;
     }
+
 
     
