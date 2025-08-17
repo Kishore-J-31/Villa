@@ -1,0 +1,116 @@
+    body {
+
+    background-color: #fffffff6;
+      font-family: Arial, sans-serif;
+    }
+    .btn-type {
+      margin-right: 8px;
+      border-radius: 5px;
+    }
+    .btn-type.active {
+      background-color: #e63946;
+      color: white;
+    }
+    .schedule-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background-color: black;
+      color: white;
+      padding: 10px 16px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .schedule-btn:hover {
+      background-color: #333;
+      color: white;
+    }
+     .property-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .middle-col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; 
+      height: 100%;
+    }
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+    .video-container {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      
+    }
+    .play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80px;
+      height: 80px;
+      background: rgba(255, 0, 0, 0.85);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .play-btn:hover {
+      background: rgba(255, 0, 0, 1);
+      transform: translate(-50%, -50%) scale(1.1);
+    }
+    .play-btn::before {
+      content: "";
+      position: absolute;
+      left: 32px;
+      top: 22px;
+      border-style: solid;
+      border-width: 18px 0 18px 28px;
+      border-color: transparent transparent transparent white;
+    }
+
+    .property-card img 
+    {
+      border-radius: 20px;
+      object-fit: cover;
+      height: 250px;
+      width: 100%;
+      padding:20px;
+    }
+    .price {
+      color: red;
+      font-weight: bold;
+      padding-left: 15px; 
+    }
+    .schedule-btn {
+      background-color: black;
+      color: white;
+      border-radius: 50px;
+      padding: 8px 20px;
+    }
+    .category {
+      padding-left: 20px;  
+      font-size: 14px;
+      color: gray; 
+    } 
+    .hero-section {
+      position: relative;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+    .navbar-nav .nav-link {
+      font-weight: 500;
+    }
+    .footer {
+    font-size: 22rem;
+    }
+
+    

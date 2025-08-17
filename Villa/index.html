@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="bg-light py-2 border-bottom">
+        <div class="container d-flex justify-content-between small">
+            <div>
+                <i class="fa-solid fa-envelope text-danger"></i> info@company.com
+                <span class="separator">|</span>
+                <i class="fa-solid fa-location-dot text-danger"></i> Sunny Isles Beach, FL 33160
+            </div>
+            <div>
+                <i class="fa-brands fa-facebook-f mx-2"></i>
+                <i class="fa-brands fa-twitter mx-2"></i>
+                <i class="fa-brands fa-instagram mx-2"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">VILLA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active text-danger" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="properties.html">Properties</a></li>
+                    <li class="nav-item"><a class="nav-link" href="property-detail.html">Property Details</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+                <a href="#" class="btn btn-danger ms-3">Schedule a visit</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <div class="hero-section text-white d-flex align-items-center" style="background: url('/images/banner-01.jpg') center/cover; height: 500px;">
+        <div class="container">
+            <h5 class="text-uppercase">Miami,FL.</h5>
+            <h1 class="fw-bold">Hurry! Get The Best Villa For You</h1>
+        </div>
+    </div>
+
+    <!-- Featured Property -->
+    <div class="container py-5">
+    <div class="row g-4 align-items-stretch">
+      
+    <!-- Left:-->
+    <div class="col-lg-4">
+        <img src="images/featured.jpg" 
+             alt="Apartment" class="property-img">
+    </div>
+      
+    <!-- Middle:-->
+    <div class="col-lg-4">
+        <div class="middle-col">
+          <p class="highlight">| FEATURED</p>
+          <h2 class="fw-bold">Best Appartment<br>& Sea View</h2>
+          
+          <br>
+          
+          <div class="accordion" id="usefulLinks">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingLinkOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#collapseLinkOne" aria-expanded="true" aria-controls="collapseLinkOne">
+                  Best useful links ?
+                </button>
+              </h2>
+              <div id="collapseLinkOne" class="accordion-collapse collapse show" 
+                   aria-labelledby="headingLinkOne" data-bs-parent="#usefulLinks">
+                <div class="accordion-body">
+                  Get the best villa for every need and budget.<b>VILLA</b> provides you the best service in the world.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingLinkTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#collapseLinkTwo" aria-expanded="false" aria-controls="collapseLinkTwo">
+                  How does this work ?
+                </button>
+              </h2>
+              <div id="collapseLinkTwo" class="accordion-collapse collapse" 
+                   aria-labelledby="headingLinkTwo" data-bs-parent="#usefulLinks">
+                <div class="accordion-body">
+                  Our process is simple: Choose property → Sign contract → Payment → Move in with safety.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingLinkThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#collapseLinkThree" aria-expanded="false" aria-controls="collapseLinkThree">
+                  Why is Villa Agency the best ?
+                </button>
+              </h2>
+              <div id="collapseLinkThree" class="accordion-collapse collapse" 
+                   aria-labelledby="headingLinkThree" data-bs-parent="#usefulLinks">
+                <div class="accordion-body">
+                  We ensure 24/7 safety, transparent contracts, and world-class service.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- Right: Card -->
+    <div class="col-lg-4">
+                <div class="p-3 border rounded shadow-sm mb-3">
+                    <i class="fa-solid fa-vector-square text-danger me-2"></i> 450 m²
+                </div>
+                <div class="p-3 border rounded shadow-sm mb-3">
+                    <i class="fa-solid fa-file-contract text-danger me-2"></i> Contract Ready
+                </div>
+                <div class="p-3 border rounded shadow-sm mb-3">
+                    <i class="fa-solid fa-credit-card text-danger me-2"></i> Payment
+                </div>
+                <div class="p-3 border rounded shadow-sm">
+                    <i class="fa-solid fa-shield-halved text-danger me-2"></i> Safety
+                </div>
+    </div>
+    
+      
+
+    <!-- Video Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h6 class="text-danger">| Video View</h6>
+            <div class="hero-section text-white d-flex align-items-center" style="background: url('/images/video-bg.jpg') center/cover; height: 300px;">
+            <div class="container text-center">
+            <h2 class="fw-bold mb-4">Get Closer View & Different Feeling</h2>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align align-items-center vh-100 bg-light">
+        <div class="video-container">       
+    <img src="/images/video-frame.jpg" width="100%" ></image>
+    <div class="play-btn"></div>
+        </div> 
+    </div>
+</div>
+    </section>
+
+    <!-- Stats -->
+    <section class="py-5 text-center">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col">
+                    <h2 class="fw-bold">34</h2>
+                    <p>Buildings Finished Now</p>
+                </div>
+                <div class="col">
+                    <h2 class="fw-bold">12</h2>
+                    <p>Years Experience</p>
+                </div>
+                <div class="col">
+                    <h2 class="fw-bold">24</h2>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Deals -->
+     <div class="container my-5">
+  <div class="row">
+
+    <!-- Left Column-->
+    <div class="col-lg-4 mb-4">
+      <small class="text-danger fw-bold">| BEST DEAL</small>
+      <h2 class="fw-bold mt-2">Find Your Best Deal<br>Right Now!</h2>
+      <div class="card shadow-sm mt-4">
+        <div class="card-body">
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Total Flat Space</span> <strong>185 m²</strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Floor number</span> <strong>26th</strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Number of rooms</span> <strong>4</strong>
+          </div>
+          <div class="d-flex justify-content-between border-bottom py-2">
+            <span>Parking Available</span> <strong>Yes</strong>
+          </div>
+          <div class="d-flex justify-content-between py-2">
+            <span>Payment Process</span> <strong>Bank</strong>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Column -->
+    <div class="col-lg-4 text-center mb-4">
+      <div class="mb-3">
+        <button class="btn btn-type active">Apartment</button>
+        <button class="btn btn-type btn-outline-dark">Villa House</button>
+        <button class="btn btn-type btn-outline-dark">Penthouse</button>
+      </div><br><br>
+      <img src="images/deal-01.jpg" alt="Property" class="img-fluid rounded shadow-sm">
+    </div>
+
+    <!-- Right Column -->
+    <div class="col-lg-4"><br><br>
+      <strong>Extra Info About Property</strong>
+      <p>A villa is typically a spacious, luxurious, and detached residence, often featuring private outdoor spaces like gardens or pools, and is known for its high-end amenities and enhanced privacy compared to apartments or smaller homes.</p>
+      <p>Modern villas are commonly found in upscale areas or resorts and are designed to provide a comfortable and stylish living experience, often with customizable interiors and advanced security features. .</p>
+      <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+    </div>
+  </div>
+</div>
+
+   <div class="container my-5">
+    <p class="text-center text-uppercase text-danger fw-bold">Properties</p>
+    <h2 class="text-center fw-bold mb-5">We Provide The Best<br>Property You Like</h2>
+
+    <div class="row g-4">
+
+    <!-- Property Card -->
+       <div class="container pb-5">
+        <div class="row g-4">
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-01.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$2,264,000</h5>
+                        <p class="mb-1">18 Old Street Miami, OR 97219</p>
+                        <small>Bedrooms: 8 | Bathrooms: 8 | Area: 545m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-02.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$1.111.000</h5>
+                        <p class="mb-1">33 Old Street Miami, OR 33333</p>
+                        <small>Bedrooms: 9 | Bathrooms: 9 | Area: 645m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-03.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$2,264,000</h5>
+                        <p class="mb-1">18 Old Street Miami, OR 97219</p>
+                        <small>Bedrooms: 8 | Bathrooms: 8 | Area: 545m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-04.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$2,264,000</h5>
+                        <p class="mb-1">18 Old Street Miami, OR 97219</p>
+                        <small>Bedrooms: 8 | Bathrooms: 8 | Area: 545m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-05.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$2,264,000</h5>
+                        <p class="mb-1">18 Old Street Miami, OR 97219</p>
+                        <small>Bedrooms: 8 | Bathrooms: 8 | Area: 545m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+             <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                    <img src="images/property-06.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <span class="badge bg-danger">Luxury Villa</span>
+                        <h5 class="mt-2">$2,264,000</h5>
+                        <p class="mb-1">18 Old Street Miami, OR 97219</p>
+                        <small>Bedrooms: 8 | Bathrooms: 8 | Area: 545m²</small>
+                        <a  class="btn btn-dark w-100 mt-3">Schedule a visit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="py-5">
+        <div class="container">
+            <h6 class="text-danger">| Contact Us</h6>
+            <h2 class="fw-bold">Get In Touch With Our Agents</h2>
+            <div class="row g-4 mt-3">
+                <div class="col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15715.262511962806!2d77.48166875!3d10.03206825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b076b530f0e5e3b%3A0xd66123be7ad1274d!2sSri%20Ram%20Nagar%2C%20Theni%2C%20Unjampatti%2C%20Tamil%20Nadu%20625531!5e0!3m2!1sen!2sin!4v1755239861480!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-lg-6">
+                    <div class="p-3 border rounded shadow-sm mb-3">
+                        <i class="fa-solid fa-phone text-danger"></i> 9876543210
+                    </div>
+                    <div class="p-3 border rounded shadow-sm">
+                        <i class="fa-solid fa-envelope text-danger"></i> info@villa.co
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 text-center small">
+        Copyright © 2028 Villa Agency Co., Ltd. All rights reserved. Design: Kishore Kumar J
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
